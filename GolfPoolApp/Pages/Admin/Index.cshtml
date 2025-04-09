@@ -1,0 +1,49 @@
+@page
+@model AdminIndexModel
+@{
+    ViewData["Title"] = "Admin - Manage Golfers";
+}
+
+<h2>Manage Golfers</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <h3>Golfers List</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Country</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var golfer in Model.Golfers)
+                {
+                    <tr>
+                        <td>@golfer.Name</td>
+                        <td>@golfer.Country</td>
+                        <td>
+                            <a asp-page="Edit" asp-route-id="@golfer.Id" class="btn btn-sm btn-warning">Edit</a>
+                            <a asp-page="Delete" asp-route-id="@golfer.Id" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-6">
+        <h3>Add New Golfer</h3>
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="NewGolfer.Name"></label>
+                <input asp-for="NewGolfer.Name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="NewGolfer.Country"></label>
+                <input asp-for="NewGolfer.Country" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Add Golfer</button>
+        </form>
+    </div>
+</div>
