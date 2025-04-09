@@ -44,6 +44,10 @@ namespace GolfPoolApp.Pages
             // Set session for logged-in user
             HttpContext.Session.SetString("LoggedInUser", Username);
 
+            // Store the user's role or admin status in the session
+            bool isAdmin = (Username == "admin"); // Example check for admin user
+            HttpContext.Session.SetString("IsAdmin", isAdmin.ToString());
+
             return RedirectToPage("/Index");
         }
     }
