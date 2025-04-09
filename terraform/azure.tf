@@ -32,19 +32,3 @@ resource "azurerm_app_service" "golfpool_app" {
   }
 }
 
-resource "azurerm_openai" "example" {
-  name                = "golfpool-openai"
-  location            = "East US"
-  resource_group_name = azurerm_resource_group.golfpool_rg.name
-
-  sku {
-    name     = "S0"
-    capacity = 1
-  }
-
-  deployment {
-    name       = "chatbot-deployment"
-    model      = "gpt-4"
-    scale_type = "Standard"
-  }
-}
