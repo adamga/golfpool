@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GolfPoolApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b60ce48104496e4397ddce3b95583648afc8aa1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7273cc6caaca5d814a8bb11aff4820b45217fb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("GolfPoolApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GolfPoolApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
