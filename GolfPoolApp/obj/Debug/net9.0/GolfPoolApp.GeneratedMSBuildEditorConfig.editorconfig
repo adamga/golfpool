@@ -52,6 +52,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Repos/golfpool/GolfPoolApp/Pages/TournamentPlayers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG91cm5hbWVudFBsYXllcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repos/golfpool/GolfPoolApp/Pages/TournamentPlayers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG91cm5hbWVudFBsYXllcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repos/golfpool/GolfPoolApp/Pages/TournamentPlayers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG91cm5hbWVudFBsYXllcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repos/golfpool/GolfPoolApp/Pages/TournamentPlayers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG91cm5hbWVudFBsYXllcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Repos/golfpool/GolfPoolApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,19 @@
+@page "{id:int}"
+@model EditModel
+@{
+    ViewData["Title"] = "Edit Tournament Player";
+}
+
+<h2>Edit Tournament Player</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Player.Name"></label>
+        <input asp-for="Player.Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Player.Country"></label>
+        <input asp-for="Player.Country" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
